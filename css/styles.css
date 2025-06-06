@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #00f0ff;
+  font-family: 'Orbitron', sans-serif;
+}
+.header {
+  padding: 20px;
+}
+.logo {
+  height: 100px;
+  filter: drop-shadow(0 0 10px #00f0ff);
+}
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 0;
+}
+.product-gallery img {
+  height: 200px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.product-gallery img:hover {
+  transform: scale(1.05);
+}
+.content {
+  padding: 100px;
+  text-align: center;
+}
